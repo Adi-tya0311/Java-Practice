@@ -1,6 +1,6 @@
 public class switcher{
     public static void main(String[] args){
-        int day = 9;
+        int day = 3;
         switch (day){
             case 1:
                 System.out.println("Monday");
