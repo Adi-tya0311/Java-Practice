@@ -12,5 +12,14 @@ public class revstring{
             }else{
                 System.out.println("Not");
             }
+
+        StringBuilder sb = new StringBuilder(str);
+        StringBuilder temp = sb;
+        System.out.println(sb.reverse());
+        if(sb.equals(temp)){
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not");
+        }
     }
 }
