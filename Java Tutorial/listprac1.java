@@ -39,5 +39,11 @@ public class listprac1{
         l1.addAll(l2);
         System.out.println("List 2: "+l2);
         System.out.println("List 1: "+l1);
+
+        //contains()= check element is present or no, return boolean
+        System.out.println(l1.contains("Gir gardhan ghat"));
+
+        //containsAll()- checks if one list's all contents are present in another list
+        System.out.println("List 1 check: "+l1.containsAll(l2)); //here we check if l1 contents are present in l2
     }
 }
