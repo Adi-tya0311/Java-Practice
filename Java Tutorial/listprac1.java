@@ -30,5 +30,14 @@ public class listprac1{
         l1.add("Gir gardhan ghat");l1.add("Sattu Supari");l1.add("Sattu Supari2");
         l1.clear(); // this method is specifically for arraylist
         System.out.println("Clear method: "+l1);
+
+        //addAll operation- add elements of list to another list
+        l1.add("Gir gardhan ghat");l1.add("Sattu Supari");
+        ArrayList<String> l2 = new ArrayList<>();
+        l2.add("Gopal");l2.add("Vasooli Bhai");
+        l2.addAll(l1);
+        l1.addAll(l2);
+        System.out.println("List 2: "+l2);
+        System.out.println("List 1: "+l1);
     }
 }
